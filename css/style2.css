@@ -1,0 +1,162 @@
+body {
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	flex-direction: column; 
+
+	}
+
+header {
+	background-color: lightblue;
+}
+
+.nav1 {
+    background-color: transparent;
+/*    position: sticky;*/
+/*    bottom: 5px; right: 5px;*/
+    float: right !important;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: lowercase;
+    font-weight: 100;
+    font-size: 1rem;
+    max-width: 100%;
+    min-width: 30%;
+  /*  margin: 5rem;*/
+  /*  margin: 1rem 2rem 1rem 1rem;*/
+  /*  border: dashed red;*/
+    padding: .1rem .1rem .1rem .3rem;
+  
+
+  }
+ .nav1 a {
+ 	background-color: white;
+/* 	display: inline-block;*/
+ 	border: dotted red 1px;
+ 	padding:.2rem;
+ 	border-radius: 0.1rem;
+ }
+
+img {
+	border: none;
+	display: flex;
+    justify-content: center;
+    
+
+}
+
+a img {
+	border: none;
+}
+
+ul {
+  	list-style-type: none;
+}
+
+.maintext {
+		display: flex;
+		justify-content: center; 
+	    align-items: center;
+	    flex-direction: column; 
+        background: lightgray;
+        border-radius: 1em;
+        padding: 1em;
+        max-width: 800px;
+        
+    }
+
+.joke {
+	font-family: 'Faster One', cursive;
+	width: 80%;
+
+	}
+
+ .jokepunchline {
+	font-family: 'Nosifer', cursive ;
+	/* fallback for a  background color. */
+  background-color: limegreen;
+  
+  /* your font color gradient. */
+   background-image: linear-gradient(
+        45deg,
+        #21bc92 16.666%, 
+		#1eb191 16.666%, 
+		#1ba68f 33.333%, 
+		#199b8e 33.333%, 
+		#16908d 50%,
+		#13868b 50%,
+		#107b8a 66.666%, 
+		#0e7089 66.666%, 
+		#0b6587 83.333%, 
+		#085a86 83.333%);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  text-shadow: white 1px 0 5px;
+
+}
+
+
+
+.movielist {
+	font-family: 'Tilt Neon', cursive;
+	text-align: center;
+	background-color: aquamarine;
+	}
+
+footer {
+	background-color: aquamarine;
+}
+
+@media screen and (max-width: 554px){
+
+.maintext {
+		margin-top: 1rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center; 
+	    align-items: ;
+	    flex-direction: column; 
+        background: #00827F; /* Teal green */
+        color: white;
+        border-radius: .1em;
+        padding: 1em;
+        font-size: 1.5rem;
+        
+    }
+
+    .nav1 {
+    	align-items: right;
+    	background-color: transparent;
+
+    	font-family: 'Open Sans', sans-serif;
+    	text-transform: uppercase;
+    	font-weight: 100;
+    	font-size: 2.0rem;
+    	max-width: 100%;
+    	min-width: 85%;
+  
+
+ 	 }
+header	.nav1 a {
+		background-color: palevioletred;
+	 	display: block;
+	 	border: dotted red 1px;
+	 	padding: .2rem;
+	 	margin: .2rem;
+	 	float: right;
+	 }
+
+.jokepunchline {
+	
+		
+text-shadow: teal 1px 0 5px;x
+	}
+
+    }
