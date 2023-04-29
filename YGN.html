@@ -2,33 +2,124 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
     <title>Home Page</title>
 
    <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quattrocento+Sans&display=swap" rel="stylesheet">
 
- <link rel="stylesheet" href="css/style2.css"/>
-  
-  </head>
-  <div class="maintext">
-  <body>
-    <a class="skip-link" href="#content">Skip to content</a>
-    <nav>
-      <ul>
-        <li><a href="file:///Users/niamartin/Desktop/yogirl_nia/YGN.html">Home</a></li>
-       <li><a href="file:///Users/niamartin/Desktop/yogirl_nia/index.html">Index</a></li>
-        <li><a href="file:///Users/niamartin/Desktop/yogirl_nia/index_2.html">Songs to Vibe With While Studying</a></li> 
-         <li><a href="file:///Users/niamartin/Desktop/yogirl_nia/index_3.html">Places to visit in Chicago</a></li>
-         <li><a href="file:///Users/niamartin/Desktop/yogirl_nia/photogallery.html">Photo Gallery</a></li>
-      </ul>
-    </nav>
+ <link rel="stylesheet" href="css/style1.css"/>
+ <script type="text/javascript" src="js/ygngallery.js" defer></script>
 
-    <main id="content">
-      
+<head>
+  <center>
+    <div class="logo"> YOGIRL NIA </div>
+  </center>
+    
+  <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #D3D3D3;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">My Story</a></li>
+  <li><a href="#contact">My Mission</a></li>
+  <li><a href="#about">My Experience</a></li>
+</ul>
+
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+      <img src="img/1.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+      <img src="img/2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+      <img src="img/3.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+      <img src="img/4.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+      <img src="img/5.png" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img_woods.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+    </div>
+    <div class="column"> 
+      <img class="demo cursor" src="img_5terre.jpg" style="width:100%" onclick="currentSlide(2)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="">
+    </div> 
+    </div>
+     <p>
+         I first wanted to pursue social media (Instagram, YouTube, etc...) because I wanted to keep a record of where I've been, my personality, my intelligence, and my growth; to encourage me on my journey . Now, I realize telling the challenges and obstacles I've experienced can inspire. So thank you all for joining me on my journey and I hope my story can have an impact on you! </p>
+          <p>Things happen in our lives; we encounter challenges that we may not have chosen to experience. But our choice comes in when we chose how to react to them.</p>
+
+  </div>
+</div>
+<h1><center>
+    <a href="https://www.youtube.com/@yogirlnia7470"><img src="https://www.svgrepo.com/show/308977/youtube-play-button-play-video-youtube-logo.svg" alt="YouTube"style="width:50;height:50px;"></a>     <a href="https://twitter.com/yogirlnia_fr"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ4wQRSpGpZyYpMpP7sOQhTtj5y2gP4FAEjj2lRcJR7dbQ2fhDA4Kz0iQejpQZVPEnl8Q&usqp=CAU" alt="Twitter"style="width:50;height:50px;"></a>          <a href="https://www.facebook.com/yogirlniafr"><img src="https://freepngimg.com/thumb/logo/69840-and-icons-computer-facebook-logo-white-black.png" alt="Facebook Logo."style="width:50;height:50px;"></a>
+  </h1>  
+
 </main>
-
-</section>
-<footer></footer>
-</body>
-</html>
+</BODY>
+</HTML>
