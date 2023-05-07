@@ -2,7 +2,8 @@ body {
 	display: flex;
 	justify-content: center; 
 	align-items: center;
-	flex-direction: column; 
+	flex-direction: column;
+
 
 	}
 /* font-family: 'Cormorant Garamond', serif;
@@ -104,7 +105,7 @@ nav li, nav li a {
 }
 
 .active {
-  background-color: #E3AD16;
+  background-color: #000;
   color: #000;
   padding: 1rem;
 }
@@ -120,6 +121,7 @@ footer {
   text-align: center;
   font-weight: bold;
 }
+
 
 /*Media sections*/
 .location-holder, .media-holder {
@@ -190,7 +192,12 @@ button {
   padding: 0.8rem 1rem;
   border-radius: 5px;
 }
-
+figcaption {
+  padding: 1rem;
+}
+.section img{
+  max width: 100px;
+}
 /*When the browser is at least 555px wide*/
 @media (min-width: 555px) {
 
@@ -261,6 +268,8 @@ header {
  	padding:.2rem;
  	border-radius: 0.1rem;
  }
+ 
+
 
 img {
 	border: none;
@@ -315,8 +324,9 @@ ul {
 }
 
 img {
-  max-width: 100%;
-  max-height:100%;
+  max-width: 75%;
+  max-height:75%;
+  margin: auto;
 }
 
 .text {
